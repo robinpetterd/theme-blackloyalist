@@ -1,0 +1,48 @@
+@import "layout.css";
+
+#BgContainer {
+	background-color:#FFF;
+	background-image:none;
+
+}
+
+#Header,#BlackLoyalistHeader {
+	background-color:#FFF;
+	background-image:none;
+
+
+
+}
+
+#Container {
+
+	width: 100%;
+	background-color:#ffffff;
+}
+
+#Content  {
+ 	margin-left:0px;
+	
+} 
+	
+	
+
+#Footer {
+		background-color:#FFF;
+}
+	
+ #FooterNavigation {
+	 display:none;
+	
+
+}
+
+#Navigation,#SideBar, #Eventtime {
+		 display:none;
+
+}
+
+.jcarousel-skin-tango, .TabbedPanels, .TabbedPanelsContentGroup {
+	display:none;
+}
+

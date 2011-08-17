@@ -1,0 +1,23 @@
+.assumed {
+	color:#666;
+}
+
+.HomePageIntro {
+	background-color:#fcf7f7;
+	padding:10px;
+	font-size:1.5em;
+	max-width:760px;
+}
+
+.Instructions {
+	color:#8a0c0c;
+	font-size:1.3em;
+	font-weight:bolder;
+
+}
+
+
+.informationicon {
+	float:left;
+	padding:5px;
+}

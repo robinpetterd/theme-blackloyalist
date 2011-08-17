@@ -1,0 +1,1361 @@
+/* -------  People Page --------For some reason this has be be at the to for the multiple javascript stuff to work-- */
+
+#PeopleList {
+	column-count:3;
+	-webkit-column-count:3;
+	-moz-column-count:3;
+	float:left;
+	margin-bottom:20px;
+	width:100%;
+
+}
+
+#Location #PeopleList {
+	margin-top:5px;
+
+}
+
+
+#Location h4 {
+	margin-top:5px;
+
+}
+
+
+
+#LocationsList {
+	column-count:3;
+	-webkit-column-count:3;
+	-moz-column-count:3;
+	float:left;
+		width:100%;
+
+	margin-bottom:20px;
+	margin-top:20px
+
+}
+
+#EventsList {
+	column-count:2;
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	text-align:left;
+	width:100%;
+	float:left;
+
+
+
+}
+
+
+.clear {
+line-height: 0px;
+font-size: 0px;
+clear: both;
+height: 0px;
+}
+
+
+html,body { height:100%; }
+
+
+body {
+	color:#111;
+	
+}
+
+a {color:#03F};
+
+
+.clear{
+	clear:both;
+}
+
+
+/* parts the related to whole */
+
+ul {
+	list-style-image: url(../images/dot.png);
+}
+
+
+h1 , h2 ,h3 , h4 ,h5, h6 {
+	color:#5e6b81;
+}
+
+
+h3 a {
+	color:#5e6b81;
+}
+
+
+ /* INFORMATION page related  */
+
+
+#information img.left {
+	clear:left;
+}
+
+
+
+.Footnote_20_Symbol {
+	font-size:xx-small; 
+	vertical-align:top
+}
+
+ /* Forms---------------------------------------- */
+
+
+.action {
+	
+	color:#FFF;
+	background-image:url(../images/sidebar-background-bg.png);
+	background-color:#b12320;
+	background-repeat: repeat-x;
+	padding:3px;
+	
+	font-weight:bolder;
+	margin-top:-10px;
+	
+}
+
+label {
+	color:#b12320;
+
+}
+
+
+fieldset {
+	margin:0px;
+	padding:0px;
+
+	
+}
+
+
+ div.middleColumn {
+	padding:0px;
+	margin:0px;
+	margin-left:6px;
+	margin-top:6px;
+
+	}
+
+ div.middleColumn input {
+		
+		padding:-4px;
+		margin:-5px;
+
+	}
+
+
+
+
+/* CONTAINER
+----------------------------------------- */
+#BgContainer {
+		background-image: url(../images/bg.png);
+		background-repeat:repeat-y;
+		background-color:#000;
+}
+#Container {
+
+	width: 95%;
+	background-color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	border-right-width: 4px;
+	border-left-width: 4px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color:#333;
+	border-left-color: #333;
+
+}
+#Layout {
+	margin-left:20px;
+	margin-right:20px;
+
+}
+
+#Content  {
+ 	margin-left:230px;
+	
+} 
+	
+
+#Content .Source  {
+	margin-left:20px;
+	margin-right:20px;
+	
+} 
+	
+	
+	
+	
+/* HEADER
+----------------------------------------- */
+
+#Header {
+	background-image:url(../images/header-bg.png);
+		background-color:#001d4d;
+
+
+
+}
+
+#BlackLoyalistHeader {
+	background-image:url(../images/textandieye.png);
+	height: 114px;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+
+
+#Header h1  {
+	 
+	float:right;
+	display:none;
+	
+}
+
+
+
+#Header .blacloyalistimage { float:left;}
+
+#Header .featureimage  {
+	float:right;
+}
+
+
+
+/*Navigation ----------------------------------------- */
+
+#Navigation {
+	color: #FFFFFF;
+	background-color: #949695;
+}
+
+#Navigation ul {
+		background-color: #949695;
+		height: 28px;
+
+
+
+	}
+
+#Navigation ul li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	display:inline;
+
+}
+  
+  #Navigation ul li a {
+	text-decoration: none;
+	padding: 5px 5px 5px 5px;
+	color:#FEFEFE;
+	font-size: 1.4em;
+
+}
+			#Navigation ul li a:hover {
+				color:#900;
+				}
+		
+		#Navigation ul li a:hover span {
+
+			}
+			
+			
+    		#Navigation ul li a.current,
+    		#Navigation ul li a.section,
+    		#Navigation ul li a.section:hover,
+    		#Navigation ul li a.current:hover {
+				color:#900;
+				}
+			#Navigation ul li a.current,
+			#Navigation ul li a.section,
+    		#Navigation ul li a.section:hover,
+			#Navigation ul li a.current:hover {
+				color:#FFF;
+				background-color:#666;
+	
+	}
+    
+
+/* Sidebar we have have main one this is blue that gets overridden */
+
+ #SideBar {
+	float: left;
+	width: 225px; /* since this element is floated, a width must be given */
+	background-color:#a6b3c1;
+	margin-top:-19px;
+	background-image: url(../images/sidebar-bg.png);
+	background-repeat: repeat-x;
+	
+}
+
+ #SideBar  h3 {
+	color:#FFF;
+}
+
+
+ #SideBar  ul {
+	
+ margin:0px;
+}
+
+
+
+ #SideBar  li {
+	
+	
+	list-style:none;
+	list-style-position:inside;
+	margin-left:-15px;
+	
+	margin-right:-15px;
+
+	display:block;
+
+}
+
+
+ #SideBar  a {
+	 
+	text-decoration:none;
+ 	color:#FFF;
+ 	font-size:1em;
+ 	display:block;
+ 	
+	padding:10px 10px 10px 13px;
+	
+ 	
+	
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #868f99;
+	
+	
+	
+	
+}
+
+ #SideBar  a:hover {
+	 
+	color:#900;
+	
+ 	background-color:#F5F5F5;
+	
+}
+
+
+
+ #SideBar  .current {
+	 
+	
+ 	background-color:#656c74;
+	
+}
+
+/* Sidebar ------  Form*/
+
+
+#SideBar label {
+	color:#FFF;
+	
+}
+
+#SideBar input.text,input.title {
+	width:170px;
+	
+}
+
+#SideBar fieldset    { border:none;
+margin:0px}
+
+
+#SideBar .Actions {
+	margin-left:12px;
+}
+
+ div.middleColumn {
+	display:block;
+	padding:0px;
+	margin:0px;
+	margin-left:6px;
+	width:10px;
+	}
+
+
+div.middleColumn input {
+		padding:-4px;
+		margin:-5px;
+
+	}
+
+
+
+
+/* Sidebar we have have main one this is blue that gets overridden */
+
+
+#section-browse  {
+	padding:15px;
+}
+
+
+
+
+ #section-about  {
+	padding:15px;
+	
+}
+
+
+ #section-background  {
+	 
+	background-image:url(../images/sidebar-background-bg.png);
+	background-color:#b12320;
+	background-repeat: repeat-x;
+	padding:15px;
+	
+	
+}
+
+#section-source  {
+	 
+	display:none;
+	
+}
+
+
+ .section-source  {
+	 
+	background-image:url(../images/sidebar-source-bg.png);
+	background-color:#cfc5b1;
+	background-repeat: repeat-x;
+	padding-bottom:8px;
+	margin-left:-20px;
+	padding:8px;	
+	
+	
+}
+
+ .section-source   Label {
+	color:#FFF;
+	font-size:1.1em;
+	margin:2px;
+	
+
+}
+
+
+
+ .section-source .action {
+	color:#FFF;
+	font-size:1em;
+	margin-top:16px;
+	margin-left:-10px;
+}
+
+
+
+
+
+	
+
+
+
+
+
+ #SideBar  .current {
+	 
+	
+ 	background-color:#656c74;
+	
+}
+
+
+	
+
+#Footer { 
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:5px;
+	background-color:#D1D1D1;
+	min-height:130px;
+	clear:left;
+	
+} 
+
+
+ #FooterNavigation {
+	 float:right;
+	
+
+}
+
+
+#FooterNavigation ul {
+	}
+	
+#FooterNavigation ul li {
+	list-style: none;
+	display: inline;
+}
+		
+	
+#FooterNavigation a:link, #FooterNavigation a:visited {
+	color:#666;
+	text-decoration: none;	
+}
+
+#Footer img {
+	
+	float:left;
+	
+}
+
+
+#Footer #FooterAbout {
+	width:40%;
+	padding-top:5px;
+	font-size:.8em;
+	clear:left;
+	float:left;
+	
+}
+
+
+
+
+ #Footer #Logos {
+	width:430px;
+	float:right;
+}
+
+
+
+
+#Footer #Copyright {
+		padding:4px;
+		font-size:.8em;
+		float:left;
+			
+		clear:both;
+}
+
+
+#Footer #DesignCredits {
+		display:none;
+}
+
+
+	
+	
+	
+	/* homepage----------------------------------------- */
+	
+#Buttons {
+	float: left; 
+	width: 400px;
+	
+}
+
+#Buttons ul li {
+	list-style:none;
+	list-style-image: none;
+	margin-left:-20px;
+}
+
+
+
+#Buttons .SearchForm {
+ 		width: 375px;
+		background-color:#babbbb;
+		background-image:url(../images/search-bg.png);
+		background-repeat:repeat-y;
+		padding-left:5px; 
+			height:103px;
+
+}
+
+#Buttons .SearchForm  Label {
+	color:#FFF;
+	font-size:1.4em;
+	
+
+}
+
+#Buttons .SearchForm fieldset {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	
+	}
+
+
+#Buttons .SearchForm .action {
+	color:#FFF;
+	font-size:1em;
+	margin-top:16px;
+	margin-bottom:15px;
+}
+
+
+
+
+#Buttons .SearchForm div.middleColumn {
+	padding:0px;
+	margin:0px;
+	margin-left:6px;
+
+	
+	}
+
+
+
+
+#Buttons .SearchForm div.middleColumn input {
+		
+		padding:-4px;
+		margin:-5px;
+
+	}
+
+
+.PeopleListHeading {
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+
+#Intro {
+	margin-left:410px;	
+}
+
+#FeaturedPerson {
+	clear:left;
+	border: 10px solid #E6E6E6;
+	padding: 15px;
+	background-color: #E8E8E8;
+	background-image: url(../images/paper.jpg);
+	background-repeat: no-repeat;
+		
+}
+
+
+#FeaturedPerson h2.FeaturedPerson {
+  color:#F00; 
+  
+  	background-image: url(../images/featured-person.png);
+	background-repeat: no-repeat;
+	
+	height:50px;
+	text-indent: -9999px;
+}
+
+#FeaturedPerson h2,h3,h4 {
+	color:#5e6b81;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+#FeaturedPerson .FeaturedImage {
+ float:left;
+ border: 5px solid #E6E6E6;
+
+ margin-right:10px; 
+ 
+}
+
+#FeaturedPerson .withimage
+
+{
+	margin-left:260px; 
+ 
+}
+
+#FeaturedPerson .MoreInfo {
+	 background-color:#8a0c0c;
+	 padding:6px;
+	 margin:2px;
+}
+
+#FeaturedPerson .MoreInfo:hover {
+	 background-color:#666;
+	
+}
+
+#FeaturedPerson a:link {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#FeaturedPerson a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+
+#methodist-prototype {
+	clear:left;
+}
+
+
+/* -  Runaway/People browse -- - */ 
+
+	
+
+#PeopleSearch {
+	padding:10px;
+}
+
+#PeopleSearch fieldset {
+	padding:15px;
+}
+
+
+
+
+#PeopleSearch div.middleColumn input {
+	margin-bottom:3px;
+	margin-top:3px;
+
+	}
+
+
+
+
+#PeopleSearch  .action {
+	margin-bottom:15px;
+	margin-top:5px;
+	margin-left:12px
+
+	
+}
+
+
+
+
+/* --- Design related the browse page in better way ----- */
+
+.bonsummmary {
+	color:#8B8386;
+	font-size:.96em;
+}
+
+
+
+.previousandnext a {
+	padding:4px;
+	margin:3px;
+	background-color:#CCC;
+
+	
+}
+
+.previousandnext a:link {
+	text-decoration:none;
+	color:#333;
+	
+}
+
+.previousandnext a:visited {
+	text-decoration:none;
+	color:#333;
+}
+
+.previousandnext a:hover {
+	text-decoration:none;
+	background-color:#900;
+	color:#FFF;
+	
+}
+
+.previousandnext strong {
+	border: 1px solid #900;	
+	padding:4px;
+	margin:3px;
+	
+}
+
+
+
+
+
+
+/* --- People timelog page ----- */
+
+
+#Person .InformationPage li {list-style:none;}
+
+/*
+.EventData {
+	background-image:url(../images/dot-line.png);
+	background-repeat:repeat-x;
+	padding-top:25px;
+	clear:left;
+	
+	}*/
+.EventData {
+	background-image:url(../images/line.png);
+	background-repeat:no-repeat;
+	padding-top:40px;
+	margin-top:10px;
+	clear:left;
+	
+	}
+	
+.EventInformation {
+margin-left:70px;
+}
+
+
+.Date {
+ width:60px;
+  margin-right:20px;
+
+ float:left;
+ background-color:#F4F1F9; 
+ padding:5px;
+ padding-top:15px;
+ margin:2px;
+ color:#FFF;
+ text-align:center;
+ 
+ 	
+		-moz-border-radius:8px;
+	    -webkit-border-radius:8px;
+		behavior:url(border-radius.htc);
+
+ 
+}
+
+.Date .daymonth {
+	padding-bottom: 0px;
+	margin-bottom:-10px;
+	display:inline-block;
+	
+}
+	
+.Date h3 {
+	 color:#5e6b81;
+
+	
+}
+
+.Date .Year {
+	font-size:1.4em;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;	
+}
+
+
+
+#Person .Date {
+ width:60px;
+ float:left;
+
+
+ 
+}
+
+#Person .EventTitle {	
+
+}
+
+#Person .EventTitle h3 {	
+	margin-bottom:-1px;
+		color:#8a0c0c;
+		padding-left:10px;
+
+
+	
+}
+
+div.EventTitle {
+	color:#8a0c0c;
+}
+
+.SlavesThatRan {
+	padding-top:8px;
+}
+.SlavesThatRan  ul {
+	list-style:none;
+	display:block;
+
+}
+
+.SlavesThatRan  li {
+	display:inline;
+	padding-left:5px;
+
+}
+
+
+
+
+#Person .Source {
+
+}
+
+
+#Person .SourceIcon {
+	
+	font-size:.75em;
+	padding:5px;
+	display:block;
+	width:70px;
+	float:right;
+	
+}
+
+#Person  table .SourceIcon  {
+	float:left;
+	
+}
+
+.SourceInformation {
+	font-size:.75em;
+
+}
+
+
+.SourceInformation .information {
+	font-size:1.2em;
+	padding-left:15px;
+
+}
+
+
+.SourceInformation ul {
+			
+
+}
+
+
+.SourceInformation li {
+	list-style:none;
+}
+
+
+
+
+.SourceInformation  img.information  {
+	float:left;
+	padding:15px;
+}
+
+
+.SourceInformation .summary{
+	font-size:1.1em;
+}
+
+
+
+
+
+
+
+#Person .SourceIcon a:hover {
+	background-color:#ECECEC;
+	
+}
+
+
+ span.EventDataTable table {
+	border: 10px solid #E6E6E6;
+	padding: 5px;
+	background-color:#fdfcf7;
+	background-image: url(../images/paper.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+  span.EventDataTable  th {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color:#666;
+	
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #666;	
+	
+}
+
+
+  span.EventDataTable  td {
+	
+	
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #666;	
+	
+}
+
+
+
+#Person .Start {
+
+	
+	border-left-width: 0px;
+	border-left-style:none;	
+}
+
+
+
+
+#Person th {
+}
+
+#Person .Column {
+	width:10%;
+}
+
+#Person .MediumColumn {
+	width:6%;
+}
+
+#Person .LongColumn {
+	width:14%;
+}
+
+#Person .DoubleColumn {
+	width:23%;
+}
+
+
+
+#Person .SmallColumn {
+	width:3%;
+}
+
+
+#Person .EventDataTable {
+	clear:both;
+}
+
+#Event .EventDataTable {
+	width:100%;
+	float:left;
+}
+
+#Event td   {
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#999; 
+}
+
+
+#Person  .BONdataTable {
+}
+
+
+/* --- Things that are different for the owners pages ----- */
+
+.Owner td   {
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#999; 
+}
+
+
+#Person  #LoyalistClaims {
+	width:80%;
+}
+
+
+#Person  #LoyalistClaims th {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color:#999;
+	border-left-width: 2px;
+	border-left-style: none;	
+}
+
+
+#Person  #LoyalistClaims td {
+	
+	border-left-width: 2px;
+	border-left-style: none;
+	border-left-color:#F00;
+	
+	
+}
+
+
+#Person  #LoyalistClaims .DoubleColumn {
+	width:80%;
+}
+
+
+/*--- Event Pages --- */
+
+#Event #Information {
+	margin-left:80px;
+	
+}
+
+#Event #Information  .about {
+	width:85%;
+	float:left;
+	
+}
+
+
+
+#Event .SourceIcon {
+	
+	font-size:.75em;
+	padding:5px;
+	width:70px;
+	
+	float:right;
+	
+}
+
+#Event   table .SourceIcon  {
+	float:left;
+	
+}
+
+#Event .InformationPage {
+	float:left;
+}
+
+
+
+
+
+/* --- The source pages ----- */
+
+
+li.SourceSummary {
+	background-image:url(../images/dot-line.png);
+	background-repeat:repeat-x;
+ 	padding-top:6px;
+	clear:left;
+ 
+}
+
+
+li.SourceSummary img {
+ float:left;
+	border-width: 2px;
+	border-style: solid;
+	border-color:#999; 
+	
+	margin:10px;
+
+}
+
+li.SourceSummary img {
+}
+
+li.SourceSummary .Details {
+	margin-left:90px;
+	display:block;
+
+	
+}
+
+li.SourceSummary h3 {
+		margin-top:10px;
+		color:#8a0c0c;
+
+}
+
+
+li.SourceSummary h3 a:hover {
+	background:#FFC;
+}
+
+
+
+/* --- The source Information Pags ----- */
+
+
+
+
+li.InformationSummary {
+	
+	background-image:url(../images/dot-line.png);
+	background-repeat:repeat-x;
+
+ 	padding-top:8px;
+	min-height:140px;
+	list-style:none;
+	
+	
+ 
+}
+.InformationSummary img {
+	float:left;
+	border-width: 2px;
+	border-style: solid;
+	border-color:#999;
+	
+	margin:8px;
+
+}
+
+
+li.InformationSummary span.Details {
+	display:block;
+	margin-left:100px;
+	padding-top:10px;
+	
+}
+
+.InformationSummary h3 {
+		margin-top:10px;
+		color:#8a0c0c;
+
+}
+
+
+.InformationSummary h3 a:hover {
+	background:#FFC;
+}
+
+
+#information img {
+	 float:left;
+	border-width: 2px;
+	border-style: solid;
+	border-color:#999; 
+	
+	margin:30px;
+	
+
+}
+
+
+
+
+/* Featured list at top of browse pages----------------------------------------- */
+ #FeaturedList {
+	 float:left;
+	 width:100%;
+ }
+
+ #FeaturedList  .title {
+ 	padding-left:10px;
+ }
+ 
+ #FeaturedList ul.list li {
+	list-style: none;
+	display:inline;
+	float:left;
+	width:175px;
+	padding:10px;
+}
+
+
+
+
+#FeaturedList ul li:hover {
+	background-color:#FDFFF0
+	}
+
+
+
+#FeaturedList ul li h3  a{
+	color:#8a0c0c;
+	display: block;
+
+}
+
+#FeaturedList ul img{
+	float:left;
+	border-width: 5px;
+	border-style: solid;
+	border-color:#999; 
+	
+
+}
+
+#FeaturedList ul h3 {
+	color:#8a0c0c;
+}
+
+
+
+#FeaturedList ul .Explaination {
+	float:left;
+
+}
+
+
+#FeaturedList ul .Explaination {
+	float:left;
+
+}
+
+
+#FeaturedList  ul .MoreInfo {
+	font-size:.8em;
+
+}
+
+
+
+
+
+
+/* Transcripts----------------------------------------- */
+
+#sourcePage  {
+	clear:both;
+	border-bottom:
+;
+	border-top: 1px solid #999;
+	border-right: 1px none #999;
+	border-bottom: 1px none #999;
+	border-left: 1px none #999;
+}
+
+#Transcript #sourcePage img {
+	float: left; 
+	
+	border-width: 5px;
+	border-style: solid;
+	border-color:#999; 
+	
+	clear:left;
+	margin:5px;
+
+	width: 180px; /* since this element is floated, a width must be given */
+}
+
+#Transcript #sourcePage h3 {display:none;}
+#Transcript #TextFromImageTranscript {
+	 	margin-left:190px;
+
+}
+
+#Transcript .SourceInformation {
+	
+	font-size:.75em
+}
+	
+	
+ /* The forward and back buttons */
+
+
+.previousandnext { 
+
+	margin-top:8px;
+} 
+ 
+
+
+
